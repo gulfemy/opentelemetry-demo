@@ -10424,6 +10424,9 @@ spec:
       port: 14250
       targetPort: 14250
       protocol: TCP
+    - name: prometheus-exporter
+      port: 9464
+      targetPort: 9464
     - name: jaeger-thrift
       port: 14268
       targetPort: 14268
